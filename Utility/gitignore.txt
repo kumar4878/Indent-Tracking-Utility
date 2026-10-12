@@ -1,0 +1,71 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+*.secret
+*.secrets
+.streamlit/secr*ts.toml
+
+# VS Code machine-specific settings
+.vscode/settings.json
+.vscode/launch.json
+
+# Local databases
+Utility/database/*.db
+Utility/database/*.sqlite
+Utility/database/*.sqlite3
+*.db
+*.sqlite
+*.sqlite3
+
+#*Logs
+Utility*logs/
+Logs/
+*.log
+
+# Input procurement workbooks
+Files/Indents/*
+Files/Rate Contracts/*
+Files/Tenders/*
+Files/Purchase Orders/*
+
+# Generated output workbooks
+Files/Output File/*
+
+# Temporary and processed files
+Processed/
+Archive/
+temp/
+tmp/
+~$*.xlsx
+~$*.xlsm
+~$*.xls
+
+# Excel files, unless explicitly added as safe templates
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# Build and coverage outputs
+dist/
+build/
+coverage/
+.coverage
+htmlcov/

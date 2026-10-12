@@ -1,0 +1,27 @@
+{
+  "priority": [
+    "Data Clarification Required",
+    "Institution Mapping Pending",
+    "Equipment Mapping Pending",
+    "Not Required",
+    "Pending Indent Review",
+    "Returned for Reprioritization",
+    "Approved - RC Check Pending",
+    "RC Verification Pending",
+    "Active RC - PO Pending",
+    "Tender Not Initiated",
+    "Tender in Progress",
+    "Pending BFC",
+    "RC Creation Pending",
+    "PO Pending",
+    "Partially Ordered",
+    "Fully Ordered",
+    "PO Issued - Supply Pending",
+    "Partially Supplied",
+    "Fully Supplied - QA Pending",
+    "Completed",
+    "Match Review Required",
+    "Rejected",
+    "Cancelled"
+  ]
+}

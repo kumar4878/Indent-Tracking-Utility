@@ -1,0 +1,106 @@
+{
+  "institution_name_threshold": 90,
+  "institution_probable_threshold": 85,
+  "item_name_threshold": 95,
+  "item_probable_threshold": 70,
+  "critical_attributes": [
+    "capacity",
+    "parameters",
+    "channels",
+    "mobility",
+    "patient_type",
+    "scale",
+    "operation",
+    "installation",
+    "configuration",
+    "material",
+    "unit"
+  ],
+  "generic_stopwords": [
+    "machine", "unit", "set", "sets", "system", "systems", "model", "device",
+    "devices", "table", "stand", "chair", "type", "standard", "size", "with",
+    "for", "and", "the", "of", "cum", "complete", "accessories", "kit", "kits",
+    "no", "number", "new", "small", "big", "large"
+  ],
+  "attribute_keyword_map": {
+    "mobility": {
+      "mobile": ["mobile"],
+      "portable": ["portable"],
+      "fixed": ["fixed", "standing"]
+    },
+    "patient_type": {
+      "adult": ["adult", "adults"],
+      "paediatric": ["paediatric", "pediatric", "child", "children"],
+      "neonatal": ["neonatal", "neonate", "infant", "infants", "baby"]
+    },
+    "scale": {
+      "major": ["major"],
+      "minor": ["minor"]
+    },
+    "operation": {
+      "manual": ["manual"],
+      "electronic": ["electronic", "electric"],
+      "hydraulic": ["hydraulic"]
+    },
+    "configuration": {
+      "single_bin": ["single bin"],
+      "two_bin": ["2 bin", "two bin", "double bin"]
+    },
+    "material": {
+      "stainless_steel": ["stainless steel", "ss"],
+      "wooden": ["wooden", "wood"]
+    }
+  },
+  "component_keyword_hints": [
+    "plate", "plates", "cassette", "cassettes", "probe", "probes", "accessory",
+    "accessories", "attachment", "attachments", "part", "parts", "module",
+    "modules", "cable", "cables"
+  ],
+  "po_header_amount_tolerance": 1.0,
+  "approved_aliases": {
+    "Syrange Pump": "Syringe Pump",
+    "Feotal Doppler": "Foetal Doppler",
+    "Radaint Warmer": "Radiant Warmer",
+    "Defibrilator": "Defibrillator",
+    "PhotoTheraphy": "Phototherapy Unit",
+    "100mA X-Ray Mobile": "100 M.A. X-ray machine Mobile HF",
+    "200 ma X-ray Machine": "200 M.A. X-ray machine HF",
+    "Dental X-Ray-Intra Oral With RVG": "Dental X ray machine",
+    "Multipara Monitor (7 Para)": "Monitors ( 5 Para)",
+    "12 Channel ECG Machine": "ECG machine",
+    "Computed Radiography Machine : CR Imaging pates and compatible cassettes:": "CR Machine",
+    "Patient Cot with mattress": "Hospital Cots (ISI Model) with mattresses",
+    "Wheel Chair Fixed": "Wheel Chair (SS)",
+    "Pediatric Cot with Mattress": "Hospital Cots Pediatric (ISI Model) with mattresses",
+    "Revolving Stool": "Stools Revolving ;",
+    "Office Table Big size": "Office Table",
+    "Patient attendant Stool": "Stool",
+    "Open Rack": "Racks -Steel - Wooden",
+    "Surgical Diathermy/ Cautery Machine": "Surgical Diathermy",
+    "Shadow less lamp standing Model": "Shadowless Lamp stand model",
+    "Saline Stand stainless steel": "Saline Stand (SS)",
+    "Bed side Screen": "Bed side screen (SS- Godrej Model)",
+    "Portable Ultrasound Machine": "Portable Scanning Machine",
+    "Stretcher on Trolley - Fully Stainless Steel": "Stretcher / Patient Trolley (SS)",
+    "Office chairs 'S' Type with armrest": "Office Chairs",
+    "Instrument Trolley": "Instrument Trolley (SS)"
+  },
+  "approved_substitutions_notes": {
+    "Multipara Monitor (7 Para)": "Approved technical upgradation in place of the 5-Para monitor requirement."
+  },
+  "package_components": {
+    "216A": {
+      "anchor": "Computed Radiography Machine : CR Imaging pates and compatible cassettes:",
+      "components": [
+        "35 cm x 43 cm or (14\"-17\")",
+        "24 cm x 30 cm or (10\"-12\")"
+      ]
+    }
+  },
+  "probable_aliases": {
+    "Minor surgical instrument set": "Mini surgery set",
+    "Examination Table": "Examination Couch (SS)",
+    "Principal/Superintendent/HOD executive chair (High back)": "Doctor's chair for OP Ward, Blood Bank, Lab etc.",
+    "Foot step": "Double & Single Step Stools"
+  }
+}

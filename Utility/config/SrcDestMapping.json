@@ -1,0 +1,40 @@
+{
+  "Indent": {
+    "mandatory": ["IndentNo", "IndentDate", "Hospital", "District", "SourceItemName", "RequiredQty"],
+    "aliases": {
+      "SourceSerialNo": ["Sno", "Sl.No", "S.No", "Serial No", "Sl No"],
+      "IndentNo": ["Indent Number", "Indent No", "Indent", "IndNo"],
+      "District": ["District", "Dist.", "Dist"],
+      "Hospital": ["Hospital", "Hospital Name", "Hosptial"],
+      "SourceItemName": ["Equipment Name", "Item Name", "ITEMNAME"],
+      "RequiredQty": ["Required Qty", "Qty", "Quantity"],
+      "UnitOfMeasure": ["Unit", "UOM", "Unit of Measure"]
+    }
+  },
+  "RC": {
+    "mandatory": ["RCNumber", "SourceItemName", "VendorName", "ApprovedRate", "RCValidFrom", "RCValidUpto"],
+    "aliases": {
+      "RCNumber": ["RC No", "RC Number", "Rate Contract No"],
+      "SourceItemName": ["Equipment Name", "Item Name", "ITEMNAME"],
+      "VendorName": ["Firm Name", "Vendor", "Supplier"],
+      "ApprovedRate": ["Rate", "Approved Rate", "L1 Rate"]
+    }
+  },
+  "Tender": {
+    "mandatory": ["TenderNo", "SourceItemName", "TenderStage"],
+    "aliases": {
+      "TenderNo": ["Tender No", "Tender Number", "Tender"],
+      "SourceItemName": ["Equipment Name", "Item Name"],
+      "TenderStage": ["Stage", "Tender Stage", "Status"]
+    }
+  },
+  "PO": {
+    "mandatory": ["PONo", "PODate", "SourceItemName", "OrderedQty", "VendorName"],
+    "aliases": {
+      "PONo": ["PO. NO.", "PO No", "PONo"],
+      "OrderedQty": ["Item Qty", "Ordered Qty", "Quantity"],
+      "VendorName": ["FIRM NAME", "Firm Name", "Vendor"],
+      "SourceItemName": ["Equipment Name", "Item Name", "Description"]
+    }
+  }
+}

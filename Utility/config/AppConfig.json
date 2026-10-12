@@ -1,0 +1,20 @@
+{
+  "root_path": "C:\\VSCode Projects\\Indent Tracker\\Files",
+  "input_folders": {
+    "Indent": "Indents",
+    "RC": "Rate Contracts",
+    "Tender": "Tenders",
+    "PO": "Purchase Orders"
+  },
+  "output_folder": "Output File",
+  "supported_extensions": [".xlsx", ".xlsm", ".xls"],
+  "recursive_scan": false,
+  "preserve_source_files": true,
+  "overwrite_source": false,
+  "create_timestamped_output": true,
+  "create_latest_output": true,
+  "database_path": "C:\\VSCode Projects\\Indent Tracker\\Utility\\database\\tgmsidc_reconciliation.db",
+  "mapping_file": "C:\\VSCode Projects\\Indent Tracker\\Utility\\config\\SrcDestMapping.json",
+  "matching_rules_file": "C:\\VSCode Projects\\Indent Tracker\\Utility\\config\\MatchingRules.json",
+  "status_rules_file": "C:\\VSCode Projects\\Indent Tracker\\Utility\\config\\StatusRules.json"
+}
